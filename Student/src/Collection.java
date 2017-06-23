@@ -33,7 +33,7 @@ public class Collection {
 	    System.out.println("enter the details about student number "+(i+1));
 		
 	    int id1=in.nextInt();
-		if(id1>=0 && id1<=1000){p=1;}                            //to add constraints for id
+		if(id1>=0 && id1<=10000){p=1;}                            //to add constraints for id
 		
 		String name1= in.next();
 		if(name1.length()>=5 && name1.length()<=35){q=1;}       //to add constraints for name
